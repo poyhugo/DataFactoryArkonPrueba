@@ -72,7 +72,9 @@
 					},
 					"sink": {
 						"type": "SqlDWSink",
-						"allowCopyCommand": true
+						"allowCopyCommand": true,
+						"tableOption": "autoCreate",
+						"disableMetricsCollection": false
 					},
 					"enableStaging": true,
 					"stagingSettings": {
